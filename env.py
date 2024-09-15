@@ -3,13 +3,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = os.getenv("API_ID", 0)
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", None)
-SUDOERS = list(map(int, os.getenv("SUDOERS", 0).split()))
-MONGO_URL = os.getenv("MONGO_URL", None)
-LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", None)
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+API_ID = os.getenv("API_ID", "12834603")
+API_HASH = os.getenv("API_HASH", "84a5daf7ac334a70b3fbd180616a76c6")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6671551975:AAGfZL5aAxyo7P5DYE2YgK9nkVnkxX3a8GY")
+SUDOERS = list(map(int, os.getenv("SUDOERS", "5615344987,").split()))
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Rone:rone@cluster0.sln9j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1001815554788")
+MUST_JOIN = os.getenv("MUST_JOIN", "https://t.me/ELENAMUSICSUPPORT")
 DISABLED = os.getenv("DISABLED", "").split()
 
 if not API_ID:
