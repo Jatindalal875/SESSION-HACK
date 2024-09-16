@@ -5,7 +5,7 @@ load_dotenv()
 
 API_ID = os.getenv("API_ID", "12834603")
 API_HASH = os.getenv("API_HASH", "84a5daf7ac334a70b3fbd180616a76c6")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6671551975:AAGmYnM9HtJR2N5Gi_YPxn-UgtW6CVsTemQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6671551975:AAEjIiNPkN_MKA4r2Z6_qpGAM6qm8Yl0PuQ")
 SUDOERS = list(map(int, os.getenv("SUDOERS", "5615344987").split()))
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://Rone:rone@cluster0.sln9j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1001815554788")
